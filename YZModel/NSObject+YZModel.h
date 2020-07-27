@@ -16,12 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 +(instancetype)withDicArray:(id)dicArray;
 
 /// 模型转字典
-/// @param model 模型
--(NSDictionary*)withModel:(id)model;
+-(NSDictionary*)withModel;
 
 /// 模型数组转字典数组
-/// @param modelArray 模型数组
--(NSArray*)withModelArray:(id)modelArray;
+-(NSArray*)withModelArray;
 
 -(NSDictionary*)arrayModel;
 
