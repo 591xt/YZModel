@@ -93,6 +93,12 @@ DicModel* model=[DicModel withModel:dic];
 NSArray* array=[ResultModel withArrayModel:@[@{@"title":@"测试"}]];
 ```
 
+![](https://591xt.xyz/github/1.png)
+
+![](https://591xt.xyz/github/2.png)
+
+![](https://591xt.xyz/github/3.png)
+
 有问题直接发邮件
 
 ```
