@@ -67,31 +67,6 @@ JAVA 需要在` Model `名字的后面加上包名
 
 按照以上规则数组，字典和基本数据类型可以随便嵌套，**注意冒号和引号**
 
-解析
-
-直接将YZModel文件夹导入项目，引入头文件
-
-```
-#import "NSObject+YZModel.h"
-```
-
-分两种：
-
-第一种：
-
-把字典转会换成对应的Model
-
-```
-DicModel* model=[DicModel withModel:dic];
-```
-
-第二种：
-
-把数组转换成对应的Model数组
-
-```
-NSArray* array=[ResultModel withArrayModel:@[@{@"title":@"测试"}]];
-```
 
 ![](https://591xt.xyz/github/1.png)
 
@@ -101,8 +76,11 @@ NSArray* array=[ResultModel withArrayModel:@[@{@"title":@"测试"}]];
 
 ![](https://591xt.xyz/github/4.png)
 
+下载地址：
 
-有问题直接发邮件
+[https://apps.apple.com/cn/app/yzmodel/id6448142174](https://apps.apple.com/cn/app/yzmodel/id6448142174)
+
+有问题发邮件
 
 ```
 591xt@591xt.xyz
